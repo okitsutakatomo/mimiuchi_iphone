@@ -1,4 +1,4 @@
-#Fri Aug 12 16:30:50 JST 2011
+#Sat Aug 27 22:57:05 JST 2011
 eclipse.preferences.version=1
 provisioning_profiles/development/26A262C3-46C8-4883-AA48-32CAC2AC2018/appid=*
 provisioning_profiles/development/26A262C3-46C8-4883-AA48-32CAC2AC2018/filepath=/Users/okitsu/Library/MobileDevice/Provisioning Profiles/26A262C3-46C8-4883-AA48-32CAC2AC2018.mobileprovision
@@ -8,3 +8,7 @@ provisioning_profiles/development/4D391339-7EBA-4174-A6BF-5037EC10765A/appid=*
 provisioning_profiles/development/4D391339-7EBA-4174-A6BF-5037EC10765A/filepath=/Users/okitsu/Library/MobileDevice/Provisioning Profiles/okitsu_iphonedev.mobileprovision
 provisioning_profiles/development/4D391339-7EBA-4174-A6BF-5037EC10765A/name=okitsu_iphonedev
 provisioning_profiles/development/4D391339-7EBA-4174-A6BF-5037EC10765A/uuid=4D391339-7EBA-4174-A6BF-5037EC10765A
+provisioning_profiles/distribution/3E1EDEB9-0308-4202-A656-0C5B5C642BD0/appid=*
+provisioning_profiles/distribution/3E1EDEB9-0308-4202-A656-0C5B5C642BD0/filepath=/Users/okitsu/Library/MobileDevice/Provisioning Profiles/3E1EDEB9-0308-4202-A656-0C5B5C642BD0.mobileprovision
+provisioning_profiles/distribution/3E1EDEB9-0308-4202-A656-0C5B5C642BD0/name=okitsu_app_store
+provisioning_profiles/distribution/3E1EDEB9-0308-4202-A656-0C5B5C642BD0/uuid=3E1EDEB9-0308-4202-A656-0C5B5C642BD0
