@@ -1,4 +1,4 @@
-#Sat Aug 27 22:57:05 JST 2011
+#Mon Sep 05 23:39:00 JST 2011
 eclipse.preferences.version=1
 provisioning_profiles/development/26A262C3-46C8-4883-AA48-32CAC2AC2018/appid=*
 provisioning_profiles/development/26A262C3-46C8-4883-AA48-32CAC2AC2018/filepath=/Users/okitsu/Library/MobileDevice/Provisioning Profiles/26A262C3-46C8-4883-AA48-32CAC2AC2018.mobileprovision
@@ -8,7 +8,19 @@ provisioning_profiles/development/4D391339-7EBA-4174-A6BF-5037EC10765A/appid=*
 provisioning_profiles/development/4D391339-7EBA-4174-A6BF-5037EC10765A/filepath=/Users/okitsu/Library/MobileDevice/Provisioning Profiles/okitsu_iphonedev.mobileprovision
 provisioning_profiles/development/4D391339-7EBA-4174-A6BF-5037EC10765A/name=okitsu_iphonedev
 provisioning_profiles/development/4D391339-7EBA-4174-A6BF-5037EC10765A/uuid=4D391339-7EBA-4174-A6BF-5037EC10765A
+provisioning_profiles/development/D071117A-3DFF-4E4D-987A-BE94809D2D52/appid=com.mimiuchi
+provisioning_profiles/development/D071117A-3DFF-4E4D-987A-BE94809D2D52/filepath=/Users/okitsu/Library/MobileDevice/Provisioning Profiles/D071117A-3DFF-4E4D-987A-BE94809D2D52.mobileprovision
+provisioning_profiles/development/D071117A-3DFF-4E4D-987A-BE94809D2D52/name=mimiuchi_push_notification
+provisioning_profiles/development/D071117A-3DFF-4E4D-987A-BE94809D2D52/uuid=D071117A-3DFF-4E4D-987A-BE94809D2D52
+provisioning_profiles/development/FF629A35-BE5A-459C-81B0-87C1BD3C47DF/appid=com.mimiuchi.iphone
+provisioning_profiles/development/FF629A35-BE5A-459C-81B0-87C1BD3C47DF/filepath=/Users/okitsu/Library/MobileDevice/Provisioning Profiles/FF629A35-BE5A-459C-81B0-87C1BD3C47DF.mobileprovision
+provisioning_profiles/development/FF629A35-BE5A-459C-81B0-87C1BD3C47DF/name=mimiuchi_dev
+provisioning_profiles/development/FF629A35-BE5A-459C-81B0-87C1BD3C47DF/uuid=FF629A35-BE5A-459C-81B0-87C1BD3C47DF
 provisioning_profiles/distribution/3E1EDEB9-0308-4202-A656-0C5B5C642BD0/appid=*
 provisioning_profiles/distribution/3E1EDEB9-0308-4202-A656-0C5B5C642BD0/filepath=/Users/okitsu/Library/MobileDevice/Provisioning Profiles/3E1EDEB9-0308-4202-A656-0C5B5C642BD0.mobileprovision
 provisioning_profiles/distribution/3E1EDEB9-0308-4202-A656-0C5B5C642BD0/name=okitsu_app_store
 provisioning_profiles/distribution/3E1EDEB9-0308-4202-A656-0C5B5C642BD0/uuid=3E1EDEB9-0308-4202-A656-0C5B5C642BD0
+provisioning_profiles/distribution/6C4BB271-0E81-4079-A798-3C58EBD6E778/appid=com.mimiuchi.iphone
+provisioning_profiles/distribution/6C4BB271-0E81-4079-A798-3C58EBD6E778/filepath=/Users/okitsu/Library/MobileDevice/Provisioning Profiles/6C4BB271-0E81-4079-A798-3C58EBD6E778.mobileprovision
+provisioning_profiles/distribution/6C4BB271-0E81-4079-A798-3C58EBD6E778/name=mimiuchi_production
+provisioning_profiles/distribution/6C4BB271-0E81-4079-A798-3C58EBD6E778/uuid=6C4BB271-0E81-4079-A798-3C58EBD6E778

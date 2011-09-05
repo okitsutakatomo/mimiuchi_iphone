@@ -39,7 +39,6 @@ var actIndOverReload = Titanium.UI.createActivityIndicator({
     style:Titanium.UI.iPhone.ActivityIndicatorStyle.PLAIN,
 });
 
-
 actView.hide();
 actView.add(actInd);
 win.add(actView);
@@ -51,6 +50,30 @@ webView.addEventListener("beforeload", function(e) {
 webView.addEventListener('load', function(e) {
     actView.hide();
     actInd.hide();
+
+    //もしお知らせ画面であれば、バッジをnullにする。
+    if(e.url.indexOf("/home") != -1) {
+        Titanium.UI.iPhone.appBadge = null;
+    }
+
+    // 画面ロード後、PushNotificationのデバイストークンを取得し、サーバに送信する。
+    Titanium.Network.registerForPushNotifications({
+        types: [
+        Titanium.Network.NOTIFICATION_TYPE_BADGE,
+        Titanium.Network.NOTIFICATION_TYPE_ALERT,
+        Titanium.Network.NOTIFICATION_TYPE_SOUND
+        ],
+        success: function(e) {
+            var deviceToken = e.deviceToken;
+            var javascript = "javascript:send_iphone_device_token(\"" + deviceToken + "\");";
+            webView.evalJS(javascript);
+        },
+        error: function(e) {
+        },
+        callback: function(e) {
+            // called when a push notification is received.
+        }
+    });
 });
 //戻るボタン
 var back = Titanium.UI.createButton({
